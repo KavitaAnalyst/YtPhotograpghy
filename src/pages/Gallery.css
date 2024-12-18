@@ -1,0 +1,17 @@
+.gallery {
+    padding: 4rem 1rem;
+    text-align: center;
+  }
+  
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .photo-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
