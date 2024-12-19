@@ -1,13 +1,19 @@
+nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .navbar {
-    background-color: #333;
-    color: #fff;
+    background-color: #ffffff;
+    color: #080606;
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
     padding: 1rem;
     position: fixed;
     top: 0;
     width: 100%;
+    height: 20%;
     z-index: 1000;
   }
   
@@ -15,15 +21,12 @@
     list-style: none;
     display: flex;
     gap: 1rem;
+    text-align: center;
   }
   
   .nav-links a {
-    color: #fff;
+    color: #121111;
     text-decoration: none;
   }
-  
-  .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  
+
+ 
